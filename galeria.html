@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+  <title>Kalash</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="./css/estilos.css">
+	<link rel="stylesheet" href="./animaciones/anijs-master/animaciones.css">
+	<link rel="stylesheet" href="./css/animaciones.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</head>
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+		<a class="navbar-brand ml-lg-5" href="#">Kalash</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu4" aria-controls="menu4" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="menu4">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active"><a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a></li>
+				<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="submenu4" role="button" data-toggle="dropdown" 
+					aria-haspopup="true" aria-expanded="false">Exposición</a>
+					<div class="dropdown-menu" aria-labelledby="submenu4">
+						<a class="dropdown-item" href="escritores.html">Escritores</a>
+						<a class="dropdown-item" href="creadores.html">Creadores</a>
+						<a class="dropdown-item" href="poetas.html">Poetas</a>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+				<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+			</ul>
+			<div class="navbar-text mr-lg-5" style="font-size: 1rem; letter-spacing: 2px;">
+				<a href="https://www.facebook.com/kalashblog/" class="pe-1"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/kalashblog/" class="pe-1"><i class="fab fa-instagram"></i></a>
+				<a href="https://co.pinterest.com/kalashblog/_saved/" class="pe-1"><i class="fab fa-pinterest"></i></a>
+				<a href="https://kalashmyblog.tumblr.com" class="pe-1"><i class="fab fa-tumblr"></i></a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container" id="galeria-2">
+		<div class="button-group filter-button-group d-flex justify-content-center mt-5 mb-3">
+			<div class="col-sm-12">
+				<button data-filter="*" class="btn">All</button>
+				<button data-filter=".animales"  class="btn">Animales</button>
+				<button data-filter=".fondos" class="btn">Fondos</button>
+				<button data-filter=".naturaleza" class="btn">Naturaleza</button>				
+			</div>
+
+		</div>
+		
+		<div class="grid">
+			<div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f1.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f1.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f2.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f2.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f3.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f3.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f4.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f4.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f5.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f5.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f6.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f6.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f7.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f7.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f8.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f8.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f9.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f9.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f10.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f10.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f11.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f11.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f12.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f12.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f13.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f13.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f14.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f14.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f15.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f15.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f16.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f16.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f17.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f17.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f18.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f18.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f19.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f19.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f20.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f20.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f21.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f21.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f22.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f22.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f23.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f23.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f24.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f24.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f25.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f25.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f26.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f26.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f27.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f27.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f28.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f28.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f29.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f29.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter fondos"><a href="img/fondos/f30.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/fondos/f30.jpg" alt="" width="100%" height="100%" class=""></a></div>
+
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a1.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a1.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a2.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a2.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a3.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a3.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a4.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a4.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a5.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a5.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a6.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a6.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a7.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a7.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a8.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a8.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a9.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a9.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a10.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a10.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a11.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a11.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a12.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a12.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a13.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a13.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a14.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a14.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a15.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a15.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a16.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a16.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a17.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a17.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a18.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a18.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a19.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a19.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a20.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a20.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a21.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a21.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a22.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a22.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a23.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a23.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a24.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a24.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a25.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a25.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a26.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a26.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a27.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a27.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a28.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a28.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a29.jpeg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a29.jpeg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter animales"><a href="img/animales/a30.jpeg" class="fancybox" data-fancybox="gallery1"><img src="./img/animales/a30.jpeg" alt="" width="100%" height="100%" class=""></a></div>
+
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n1.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n1.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n2.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n2.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n3.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n3.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n4.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n4.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n5.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n5.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n6.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n6.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n7.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n7.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n8.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n8.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n9.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n9.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n10.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n10.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n11.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n11.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n12.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n12.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n13.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n13.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n14.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n14.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n15.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n15.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n16.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n16.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n17.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n17.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n18.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n18.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n19.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n19.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n20.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n20.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n21.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n21.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n22.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n22.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n23.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n23.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n24.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n24.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n25.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n25.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n26.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n26.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n27.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n27.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n28.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n28.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n29.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n29.jpg" alt="" width="100%" height="100%" class=""></a></div>
+      <div class="element-item col-sm-6 col-md-4 col-lg-3 mb-3 filter naturaleza"><a href="img/naturaleza/n30.jpg" class="fancybox" data-fancybox="gallery1"><img src="./img/naturaleza/n30.jpg" alt="" width="100%" height="100%" class=""></a></div>
+		</div>
+	</div>
+
+	<hr>
+
+	<footer class="container" id="footer" data-aos="fade-up" data-aos-duration="1000">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Demuestra y crea tu propio universo.<i class="fas fa-rocket"></i></h1>
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<div class="row">
+					<div class="col-sm-12" >
+						<a href="https://www.facebook.com/kalashblog/" class="pe-1 text-light"><i class="fab fa-facebook"></i></a>
+						<a href="https://www.instagram.com/kalashblog/" class="pe-1 text-light"><i class="fab fa-instagram"></i></a>
+						<a href="https://co.pinterest.com/kalashblog/_saved/" class="pe-1 text-light"><i class="fab fa-pinterest"></i></a>
+						<a href="https://kalashmyblog.tumblr.com" class="pe-1 text-light"><i class="fab fa-tumblr"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<a href="" class=""><i class="fas fa-home"></i> Medellín - Colombia</a><br>
+						<a href="" class=""><i class="fas fa-phone"></i> +57 311-344-7976</a><br>
+						<a href="" class=""><i class="fas fa-envelope-open"></i> kalashmyblog@gmail.com</a><br>	
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<form action="./php/suscribirse.php" method="POST">
+					<div class="form-group">
+						<label for="nombre">Nombre</label><br>
+						<input type="text" name="nombre" required>
+					</div>
+					<div class="form-group">
+						<label for="correo">Email</label><br>
+						<input type="email" name="correo"  required>
+					</div>
+					<button type="submit" class="btn btn-block">Suscribirse</button>
+				</form>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-4" style="display: flex; justify-content: center; align-items: center;">
+				<a href="">© 2021 by Kalash.</a>
+			</div>
+		</div>
+	</footer>
+
+	<style>
+		body {
+			background-color: #000000;
+		}
+
+	</style>
+		<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="./animaciones/anijs-master/dist/anijs-min.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+		<script>
+			var $grid = $('.grid').isotope({
+			});
+
+			$('.filter-button-group').on( 'click', 'button', function() {
+				var filterValue = $(this).attr('data-filter');
+				$grid.isotope({ filter: filterValue });
+			});
+
+			$('.fancybox').on('click', function() {
+				var visibleLinks = $('.fancybox:visible');
+				
+				$.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
+				
+				return false;
+			});
+		</script>
+</body>
+
+</html>
